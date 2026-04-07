@@ -1,16 +1,13 @@
 # repo-no-3
 merge conflicts
 
-import mysql.connector
+#include <stdio.h>
 
-conn = mysql.connector.connect( host="localhost", # wrong in Docker user="root", password="root", database="school"
-
-cursor = conn.cursor()
-
-cursor.execute("CREATE TABLE IF NOT EXISTS students (name VARCHAR(50), age INT)") cursor.execute("INSERT INTO students VALUES ('Alice', 20)")
-
-conn.commit()
-
-print("Inserted!")
-
-cursor.close() conn.close(
+int main() {
+    char name[100];
+    printf ("Enter your name: ");
+    scanf ("%s", name);
+    printf ("Hello, %s!\n", name);
+    return 0;
+}
+<img width="732" height="607" alt="image" src="https://github.com/user-attachments/assets/c99157a1-c08a-42d8-b4ab-6115e41ddf62" />
