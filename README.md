@@ -30,7 +30,7 @@ services:
     container_name: java-helloworld-container
     command: ["java", "HelloWorld"]
 
-
+https://github.com/newdelthis/demo/blob/main/pod_1.yml
 
     
 <img width="1180" height="626" alt="image" src="https://github.com/user-attachments/assets/88a8ee17-654f-44d5-9b86-aba13beea5ff" />
